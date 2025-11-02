@@ -1,8 +1,12 @@
 # MLModelForCustomerConversionInsights
 End-to-end ML pipeline for understanding what drives customer conversion. Predict customer conversion from product features and review sentiment using Snowflake ML and Cortex. Includes explainability, NLP diagnostics, and a Streamlit dashboard for business insight.
 
-Snowflake-guide-conversion-lab/ML-NLP-Buildout-with-Dashboard
+Disclamer: This project was forked from Snowflake-Labs, and modified:
+[https://github.com/Snowflake-Labs/sfguide-build-ml-models-for-customer-conversions.git ](https://github.com/Snowflake-Labs/sfguide-build-ml-models-for-customer-conversions.git)
 
+
+
+PROJECT STRUCTURE
 ├── README.md
 ├── Customer Conversions.ipynb      # Full Snowflake ML pipeline (rebuilt from Snowflake's lab)
 ├── streamlit_CCapp.py              # The interactive dashboard (coded with Copilot)
